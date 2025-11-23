@@ -1,3 +1,15 @@
+---
+title: Image Text Extractor
+emoji: 📄
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: 1.28.0
+app_file: streamlit_app.py
+pinned: false
+license: mit
+---
+
 # Image Text Extractor
 
 This project is a Streamlit application that uses the `olmOCR` model (based on Qwen2.5-VL) to extract text from images. It provides a user-friendly interface to upload images and view the extracted text along with metadata.
