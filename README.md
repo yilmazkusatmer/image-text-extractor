@@ -3,7 +3,7 @@ title: Image Text Extractor
 emoji: 📄
 colorFrom: blue
 colorTo: indigo
-sdk: streamlit
+sdk: docker
 sdk_version: 1.28.0
 app_file: streamlit_app.py
 pinned: false
