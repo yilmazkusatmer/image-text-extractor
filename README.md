@@ -32,12 +32,21 @@ This project is a Streamlit application that uses the `olmOCR` model (based on Q
 
 2.  **Create a virtual environment** (recommended):
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    # Using uv (recommended, faster):
+    uv venv --python 3.11
+    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+    
+    # Or using standard Python:
+    python -m venv .venv
+    source .venv/bin/activate  # On Windows: .venv\Scripts\activate
     ```
 
 3.  **Install dependencies**:
     ```bash
+    # If using uv:
+    uv pip install -r requirements.txt
+    
+    # Or using standard pip:
     pip install -r requirements.txt
     ```
 
